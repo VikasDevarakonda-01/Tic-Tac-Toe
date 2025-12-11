@@ -3,6 +3,18 @@
 This is a simple implementation of the classic Tic-Tac-Toe game written in the C programming language.
 It is a console application that allows two players to compete against each other.
 
+### 📝 Description
+
+This is a simple, command-line implementation of the classic Tic-Tac-Toe game, designed to be run in a console environment. It serves as a foundational C programming project demonstrating basic concepts such as arrays, functions, conditional logic, and simple input/output handling.
+
+### 🎯 Objective
+
+The primary objective of this project is to create a fully functional, two-player game that:
+
+1.  Allows two users to interactively play turns.
+2.  Accurately manages the game state and board display.
+3.  Determines and announces the winner or a draw based on standard Tic-Tac-Toe rules.
+   
 ### 📝 Features
 
   * **Two-Player Gameplay:** Allows two users to take turns marking spaces on the board.
@@ -46,9 +58,11 @@ Returns `1` for a win, `0` for a draw, or `-1` if the game is still in progress.
 The board state is managed by the global character array:
 `char board[]={'0','1','2','3','4','5','6','7','8','9'};`
 
-### ⚠️ Potential Issues & Improvements
 
-  * **No "Position Taken" Check:** The current code does not prevent a player from overwriting an 'X' or 'O' if they enter a number for a spot that is already occupied.
-  * **Platform Dependency:** The use of `system("cls")` is specific to Windows. For Unix-like systems (Linux/macOS), this should be replaced with `system("clear")` or standard ANSI escape codes for better portability.
+### 🧑‍💻 Author
 
-Would you like me to create a separate "Known Issues" section based on these points, or help you update the code to fix the input validation?
+⦁	 * **Author Name:** Vikas Devarakonda
+ • Course: [FUNDAMENTALS OF COMPUTING AND PROGRAMMING IN C]
+ • Institution: [SRM-AP UNIVERSITY]
+
+
